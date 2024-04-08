@@ -44,7 +44,7 @@ func jailbreak() {
         case .kfdPhysPuppet:
             print("Selecting kfd [physpuppet] for iOS 14.0 - 14.8.1")
             LogStream.shared.pause()
-            let ret = do_kopen(0x800, 0x0, 0x2, 0x2)
+            let ret = do_kopen(0x0, 0x2, 0x2)
             LogStream.shared.resume()
             if ret != 0 {
                 print("Successfully exploited kernel!");
@@ -54,7 +54,7 @@ func jailbreak() {
         case .kfdSmith:
             print("Selecting kfd [smith] for iOS 14.0 - 14.8.1")
             LogStream.shared.pause()
-            let ret = do_kopen(0x800, 0x1, 0x2, 0x2)
+            let ret = do_kopen(0x1, 0x2, 0x2)
            LogStream.shared.resume()
             if ret != 0 {
                 print("Successfully exploited kernel!");
