@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4328DDE42E027D3200B8D6DF /* patchfinder.c in Sources */ = {isa = PBXBuildFile; fileRef = 4328DDDC2E027D3200B8D6DF /* patchfinder.c */; };
+		4328DDE52E027D3200B8D6DF /* translation.c in Sources */ = {isa = PBXBuildFile; fileRef = 4328DDE22E027D3200B8D6DF /* translation.c */; };
+		4328DDE62E027D3200B8D6DF /* iboot-handoff.c in Sources */ = {isa = PBXBuildFile; fileRef = 4328DDD52E027D3200B8D6DF /* iboot-handoff.c */; };
+		4328DDE72E027D3200B8D6DF /* info.c in Sources */ = {isa = PBXBuildFile; fileRef = 4328DDD72E027D3200B8D6DF /* info.c */; };
+		4328DDE82E027D3200B8D6DF /* pv.c in Sources */ = {isa = PBXBuildFile; fileRef = 4328DDDE2E027D3200B8D6DF /* pv.c */; };
+		4328DDE92E027D3200B8D6DF /* exploit.c in Sources */ = {isa = PBXBuildFile; fileRef = 4328DDD32E027D3200B8D6DF /* exploit.c */; };
+		4328DDEA2E027D3200B8D6DF /* surface.c in Sources */ = {isa = PBXBuildFile; fileRef = 4328DDE02E027D3200B8D6DF /* surface.c */; };
+		4328DDEB2E027D3200B8D6DF /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 4328DDDA2E027D3200B8D6DF /* memory.c */; };
 		8722909125D5BC41008E11FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8722909025D5BC41008E11FA /* Assets.xcassets */; };
 		8773B95D25EA2F640025E520 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8773B95C25EA2F640025E520 /* IOKit.framework */; };
 		E1877E0826A8D376000890AD /* ColourPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1877E0726A8D376000890AD /* ColourPickerCell.swift */; };
@@ -139,6 +147,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4328DDD22E027D3200B8D6DF /* exploit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = exploit.h; sourceTree = "<group>"; };
+		4328DDD32E027D3200B8D6DF /* exploit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = exploit.c; sourceTree = "<group>"; };
+		4328DDD42E027D3200B8D6DF /* iboot-handoff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iboot-handoff.h"; sourceTree = "<group>"; };
+		4328DDD52E027D3200B8D6DF /* iboot-handoff.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "iboot-handoff.c"; sourceTree = "<group>"; };
+		4328DDD62E027D3200B8D6DF /* info.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = info.h; sourceTree = "<group>"; };
+		4328DDD72E027D3200B8D6DF /* info.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = info.c; sourceTree = "<group>"; };
+		4328DDD82E027D3200B8D6DF /* mach_vm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mach_vm.h; sourceTree = "<group>"; };
+		4328DDD92E027D3200B8D6DF /* memory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = memory.h; sourceTree = "<group>"; };
+		4328DDDA2E027D3200B8D6DF /* memory.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = memory.c; sourceTree = "<group>"; };
+		4328DDDB2E027D3200B8D6DF /* patchfinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = patchfinder.h; sourceTree = "<group>"; };
+		4328DDDC2E027D3200B8D6DF /* patchfinder.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = patchfinder.c; sourceTree = "<group>"; };
+		4328DDDD2E027D3200B8D6DF /* pv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pv.h; sourceTree = "<group>"; };
+		4328DDDE2E027D3200B8D6DF /* pv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pv.c; sourceTree = "<group>"; };
+		4328DDDF2E027D3200B8D6DF /* surface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = surface.h; sourceTree = "<group>"; };
+		4328DDE02E027D3200B8D6DF /* surface.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = surface.c; sourceTree = "<group>"; };
+		4328DDE12E027D3200B8D6DF /* translation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = translation.h; sourceTree = "<group>"; };
+		4328DDE22E027D3200B8D6DF /* translation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = translation.c; sourceTree = "<group>"; };
 		8722908125D5BC40008E11FA /* Taurine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taurine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8722909025D5BC41008E11FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8722909325D5BC41008E11FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -288,6 +313,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4328DDE32E027D3200B8D6DF /* trigon */ = {
+			isa = PBXGroup;
+			children = (
+				4328DDD22E027D3200B8D6DF /* exploit.h */,
+				4328DDD32E027D3200B8D6DF /* exploit.c */,
+				4328DDD42E027D3200B8D6DF /* iboot-handoff.h */,
+				4328DDD52E027D3200B8D6DF /* iboot-handoff.c */,
+				4328DDD62E027D3200B8D6DF /* info.h */,
+				4328DDD72E027D3200B8D6DF /* info.c */,
+				4328DDD82E027D3200B8D6DF /* mach_vm.h */,
+				4328DDD92E027D3200B8D6DF /* memory.h */,
+				4328DDDA2E027D3200B8D6DF /* memory.c */,
+				4328DDDB2E027D3200B8D6DF /* patchfinder.h */,
+				4328DDDC2E027D3200B8D6DF /* patchfinder.c */,
+				4328DDDD2E027D3200B8D6DF /* pv.h */,
+				4328DDDE2E027D3200B8D6DF /* pv.c */,
+				4328DDDF2E027D3200B8D6DF /* surface.h */,
+				4328DDE02E027D3200B8D6DF /* surface.c */,
+				4328DDE12E027D3200B8D6DF /* translation.h */,
+				4328DDE22E027D3200B8D6DF /* translation.c */,
+			);
+			path = trigon;
+			sourceTree = "<group>";
+		};
 		8722907825D5BC40008E11FA = {
 			isa = PBXGroup;
 			children = (
@@ -428,6 +477,7 @@
 				F17AE28925F2CAC700EFDD80 /* common */,
 				8722909E25D5BC5A008E11FA /* cicuta_virosa */,
 				F18579B72A92D970004AD2CD /* kfd */,
+				4328DDE32E027D3200B8D6DF /* trigon */,
 			);
 			path = exploit;
 			sourceTree = "<group>";
@@ -849,6 +899,14 @@
 				F17E754825FF2E6C008262A7 /* NonceManager.swift in Sources */,
 				F17E754925FF2E6C008262A7 /* Reachability.swift in Sources */,
 				F104E092260093FD00214144 /* extractKernel.swift in Sources */,
+				4328DDE42E027D3200B8D6DF /* patchfinder.c in Sources */,
+				4328DDE52E027D3200B8D6DF /* translation.c in Sources */,
+				4328DDE62E027D3200B8D6DF /* iboot-handoff.c in Sources */,
+				4328DDE72E027D3200B8D6DF /* info.c in Sources */,
+				4328DDE82E027D3200B8D6DF /* pv.c in Sources */,
+				4328DDE92E027D3200B8D6DF /* exploit.c in Sources */,
+				4328DDEA2E027D3200B8D6DF /* surface.c in Sources */,
+				4328DDEB2E027D3200B8D6DF /* memory.c in Sources */,
 				F17E754A25FF2E6C008262A7 /* SceneDelegate.swift in Sources */,
 				F17E754B25FF2E6C008262A7 /* UIApplication+Window.swift in Sources */,
 				F18579F62A92ED0C004AD2CD /* ExploitSelectionButton.swift in Sources */,
@@ -1017,7 +1075,7 @@
 					"$(PROJECT_DIR)/Taurine/resources",
 				);
 				MARKETING_VERSION = "1.1.7-3";
-				PRODUCT_BUNDLE_IDENTIFIER = org.coolstar.taurine;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.coolstar.taurine-trigon";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Taurine/Taurine-Bridging-Header.h";
@@ -1047,7 +1105,7 @@
 					"$(PROJECT_DIR)/Taurine/resources",
 				);
 				MARKETING_VERSION = "1.1.7-3";
-				PRODUCT_BUNDLE_IDENTIFIER = org.coolstar.taurine;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.coolstar.taurine-trigon";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Taurine/Taurine-Bridging-Header.h";

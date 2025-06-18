@@ -279,6 +279,13 @@ class ViewController: UIViewController, ElectraUI {
                         any_proc = our_proc_kAddr
                         hasKernelRw = true
                     }
+                case .trigon:
+                    print("Selecting Trigon for iOS 14.0 - 14.8.1")
+                    if trigon() == 0 {
+                        print("Successfully exploited kernel!");
+                        any_proc = our_proc_kAddr
+                        hasKernelRw = true
+                    }
                 default:
                     fatalError("Unable to get kernel r/w")
                 }
